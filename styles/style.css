@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor-primaria: #1A120B;
+    --cor-secundaria: #3C2A21;
+    --cor-terciaria: #D5CEA3;
+    --cor-clara: white;
+    --cor-escura: #1a1a1a;
+    --fonte-principal: 'Poppins', sans-serif;
+}
+
+
+body{
+    background-image: url(../assets/novidadetenis3.jpg);
+    background-color: var(--cor-escura);
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-family: var(--fonte-principal);
+    color: var(--cor-clara);
+    font-size: 60pt;
+}
+
+h2{
+    font-family: var(--fonte-principal);
+    color: var(--cor-clara);
+    font-size: 40pt;
+}
+
+h3{
+    font-family: var(--fonte-principal);
+    color: var(--cor-clara);
+    font-size: 30pt;
+}
+
+
+p{
+    font-family: var(--fonte-principal);
+    color: var(--cor-clara);
+    font-size: 20pt;
+    text-decoration: none;
+}
+
+m{
+    font-family: var(--fonte-principal);
+    color: var(--cor-clara);
+    font-size: 15pt; 
+}
+
+.cabecalho{
+    align-items: center;
+    background-color: var(--cor-primaria);
+    padding-top: 10pt;
+    padding-bottom: 5pt;
+}
+
+.cabecalho__paginas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-evenly;
+}
+
+.cabecalho__paginas__links{
+    text-decoration: none;
+}
+
+.novidade__titulo{
+    align-items: flex-start;
+    margin-left: 40pt;
+    margin-right: 50%;
+    padding-top: 30%;
+    padding-bottom: 40pt;
+}
+
+.botao__confira{
+    text-decoration: none;
+    background-color: var(--cor-escura);
+    border: var(--cor-escura);
+    border-radius: 40pt;
+    margin-left: 5%;
+    margin-right: 70%;
+    margin-bottom: 40pt;
+}
+
+.abas__produtos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.produtos__banners{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.botao__banner{
+    text-decoration: underline;
+}
+
+.rodape{
+    margin-top: 60px;
+    background-color: var(--cor-secundaria);
+    border: 1px solid;
+    border-color: var(--cor-secundaria);
+    
+}
+
+.rodape__conteudo{
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.img__container{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.img__container:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
